@@ -1,0 +1,108 @@
+
+
+@media screen and (min-width: 736px) {
+
+    body {
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        flex-wrap: nowrap;
+    }
+
+    #main-container {
+        display: flex;
+        max-width: 736px;
+        width: 736px;
+        height: 512px;
+        min-height: 512px;
+        border-radius: 32px 32px 32px 32px;
+        box-shadow: 5px 5px 100px #a3baee;
+    }
+
+    header {
+        width: 368px;
+        height: 512px;
+        border-radius: 32px 32px 32px 32px;
+        padding-top: 38px;
+        box-sizing: border-box;
+    }
+
+    .result {
+        font-size: 24px;
+        margin: 0;
+    }
+
+    #score-circle {
+        width: 200px;
+        height: 200px;
+    }
+
+    #score-circle p:first-of-type {
+        font-size: 72px;
+    }
+
+    #score-circle p:last-of-type {
+        font-size: 18px;
+    }
+
+    #performance {
+        width: 260px;
+        height: 134px;
+        gap: 20px;
+    }
+
+    #performance h2 {
+        font-size: 32px;
+    }
+
+    #performance p {
+        font-size: 18px;
+    }
+
+    main {
+        width: 368px;
+    }
+
+    #summary {
+        gap: 0;
+        padding: 28px 40px 46px 40px;
+    }
+
+    #summary h3 {
+        font-size: 24px;
+    }
+
+    #results {
+        margin: 28px 0 41px 0;
+    }
+
+    #results article {
+        width: 288px;
+        height: 56px;
+        font-size: 18px;
+    }
+
+    .continue-button a:active {
+        background: linear-gradient(#6743ff, hsl(241, 81%, 54%));
+    }
+
+    .attribution {
+        font-size: 9px;
+        color: gray;
+        display: flex;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    .attribution a {
+        color: black;
+    }
+}
+
+@media screen and (max-height: 512px) {
+
+    body {
+        align-items: flex-start;
+    }
+}
+
